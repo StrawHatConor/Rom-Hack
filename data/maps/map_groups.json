@@ -36,7 +36,8 @@
     "gMapGroup_IndoorRoute124",
     "gMapGroup_Towns",
     "gMapGroup_Routes",
-    "gMapGroup_Dungeons_"
+    "gMapGroup_Dungeons_",
+    "gMapGroup_IndoorTwigtreeGrove"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -628,5 +629,13 @@
     "TwigtreeGrove"
   ],
   "gMapGroup_Routes": [],
-  "gMapGroup_Dungeons_": []
+  "gMapGroup_Dungeons_": [],
+  "gMapGroup_IndoorTwigtreeGrove": [
+    "TwigtreeGrove_House1_1F",
+    "TwigtreeGrove_House1_2F",
+    "TwigtreeGrove_House2_1F",
+    "TwigtreeGrove_House2_2F",
+    "TwigtreeGrove_House3_1F",
+    "TwigtreeGrove_House3_2F"
+  ]
 }

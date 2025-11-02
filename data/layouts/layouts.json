@@ -4420,6 +4420,66 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/TwigtreeGrove/border.bin",
       "blockdata_filepath": "data/layouts/TwigtreeGrove/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIGTREE_GROVE_HOUSE1_1F",
+      "name": "TwigtreeGrove_House1_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwigtreeGrove_House1_1F/border.bin",
+      "blockdata_filepath": "data/layouts/TwigtreeGrove_House1_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIGTREE_GROVE_HOUSE3_2F",
+      "name": "TwigtreeGrove_House3_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwigtreeGrove_House3_2F/border.bin",
+      "blockdata_filepath": "data/layouts/TwigtreeGrove_House3_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIGTREE_GROVE_HOUSE3_1F",
+      "name": "TwigtreeGrove_House3_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwigtreeGrove_House3_1F/border.bin",
+      "blockdata_filepath": "data/layouts/TwigtreeGrove_House3_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIGTREE_GROVE_HOUSE2_2F",
+      "name": "TwigtreeGrove_House2_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwigtreeGrove_House2_2F/border.bin",
+      "blockdata_filepath": "data/layouts/TwigtreeGrove_House2_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIGTREE_GROVE_HOUSE1_2F",
+      "name": "TwigtreeGrove_House1_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwigtreeGrove_House1_2F/border.bin",
+      "blockdata_filepath": "data/layouts/TwigtreeGrove_House1_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIGTREE_GROVE_HOUSE2_1F",
+      "name": "TwigtreeGrove_House2_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwigtreeGrove_House2_1F/border.bin",
+      "blockdata_filepath": "data/layouts/TwigtreeGrove_House2_1F/map.bin"
     }
   ]
 }

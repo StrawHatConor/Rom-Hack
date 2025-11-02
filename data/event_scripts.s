@@ -1160,3 +1160,15 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 
 	.include "data/maps/TwigtreeGrove/scripts.inc"
+
+	.include "data/maps/TwigtreeGrove_House2_2F/scripts.inc"
+
+	.include "data/maps/TwigtreeGrove_House1_2F/scripts.inc"
+
+	.include "data/maps/TwigtreeGrove_House1_1F/scripts.inc"
+
+	.include "data/maps/TwigtreeGrove_House3_1F/scripts.inc"
+
+	.include "data/maps/TwigtreeGrove_House3_2F/scripts.inc"
+
+	.include "data/maps/TwigtreeGrove_House2_1F/scripts.inc"
