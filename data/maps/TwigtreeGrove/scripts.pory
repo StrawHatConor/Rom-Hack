@@ -1,0 +1,7 @@
+mapscripts TwigtreeGrove_MapScripts {}
+
+script TwigtreeGrove_EventScript_SignTown {
+    lockall
+    msgbox("TWIGTREE GROVE", MSGBOX_SIGN)
+    releaseall
+} 

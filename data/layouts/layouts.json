@@ -4415,7 +4415,7 @@
       "id": "LAYOUT_TWIGTREE_GROVE",
       "name": "TwigtreeGrove_Layout",
       "width": 35,
-      "height": 32,
+      "height": 35,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/TwigtreeGrove/border.bin",
