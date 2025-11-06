@@ -4417,7 +4417,7 @@
       "width": 35,
       "height": 35,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/TwigtreeGrove/border.bin",
       "blockdata_filepath": "data/layouts/TwigtreeGrove/map.bin"
     },

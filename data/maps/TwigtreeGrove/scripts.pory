@@ -1,5 +1,28 @@
 mapscripts TwigtreeGrove_MapScripts {}
 
+# NPC ---------------------------------------------------------------------------------------
+// Rival first interaction
+script TwigtreeGrove_EventScript_MeetRival {
+    lockall
+    faceplayer
+    msgbox(format("TEXT"))
+    waitmessage
+    fadescreen(FADE_TO_BLACK)
+    warp(MAP_TWIGTREE_GROVE_HOUSE1_1F, 5, 6)
+    fadescreen(FADE_FROM_BLACK)
+    setflag(FLAG_EVENT_MEET_RIVAL)
+    releaseall  
+}
+
+// Skitty interaction
+script TwigtreeGrove_EventScript_Skitty {
+    lockall
+    faceplayer
+    msgbox(format("TEXT"))
+    releaseall
+}
+
+# Signs --------------------------------------------------------------------------------------
 script TwigtreeGrove_EventScript_SignTown {
     lockall
     msgbox("TWIGTREE GROVE", MSGBOX_SIGN)

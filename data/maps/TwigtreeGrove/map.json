@@ -13,25 +13,52 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
+      "x": 17,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TwigtreeGrove_EventScript_MeetRival",
+      "flag": "FLAG_EVENT_MEET_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SKITTY",
+      "x": 16,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TwigtreeGrove_EventScript_Skitty",
+      "flag": "FLAG_EVENT_MEET_RIVAL"
+    }
+  ],
   "warp_events": [
     {
-      "x": 12,
-      "y": 14,
+      "x": 11,
+      "y": 13,
       "elevation": 0,
       "dest_map": "MAP_TWIGTREE_GROVE_HOUSE1_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 23,
-      "y": 8,
+      "x": 24,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_TWIGTREE_GROVE_HOUSE2_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 23,
-      "y": 17,
+      "x": 24,
+      "y": 16,
       "elevation": 0,
       "dest_map": "MAP_TWIGTREE_GROVE_HOUSE3_1F",
       "dest_warp_id": "0"
