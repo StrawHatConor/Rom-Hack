@@ -38,20 +38,18 @@ TwigtreeGrove_EventScript_Skitty::
 # 24 "data/maps/TwigtreeGrove/scripts.pory"
 	lockall
 # 25 "data/maps/TwigtreeGrove/scripts.pory"
-	faceplayer
-# 26 "data/maps/TwigtreeGrove/scripts.pory"
 	msgbox TwigtreeGrove_EventScript_Skitty_Text_0
-# 27 "data/maps/TwigtreeGrove/scripts.pory"
+# 26 "data/maps/TwigtreeGrove/scripts.pory"
 	releaseall
 	return
 
 
 TwigtreeGrove_EventScript_SignTown::
-# 32 "data/maps/TwigtreeGrove/scripts.pory"
+# 31 "data/maps/TwigtreeGrove/scripts.pory"
 	lockall
-# 33 "data/maps/TwigtreeGrove/scripts.pory"
+# 32 "data/maps/TwigtreeGrove/scripts.pory"
 	msgbox TwigtreeGrove_EventScript_SignTown_Text_0, MSGBOX_SIGN
-# 34 "data/maps/TwigtreeGrove/scripts.pory"
+# 33 "data/maps/TwigtreeGrove/scripts.pory"
 	releaseall
 	return
 
@@ -93,9 +91,11 @@ TwigtreeGrove_EventScript_MeetRival_Text_5:
 	.string "the homeless.$"
 
 TwigtreeGrove_EventScript_Skitty_Text_0:
-# 26 "data/maps/TwigtreeGrove/scripts.pory"
-	.string "TEXT$"
+# 25 "data/maps/TwigtreeGrove/scripts.pory"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}The Skitty doesn't seem to notice you.\n"
+	.string "It's too focused on the catnip in the\l"
+	.string "boys pocket.$"
 
 TwigtreeGrove_EventScript_SignTown_Text_0:
-# 33 "data/maps/TwigtreeGrove/scripts.pory"
+# 32 "data/maps/TwigtreeGrove/scripts.pory"
 	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}TWIGTREE GROVE$"

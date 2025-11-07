@@ -22,8 +22,7 @@ script TwigtreeGrove_EventScript_MeetRival {
 // Skitty interaction
 script TwigtreeGrove_EventScript_Skitty {
     lockall
-    faceplayer
-    msgbox(format("TEXT"))
+    msgbox(format("{COLOR BLUE}{SHADOW LIGHT_BLUE}The Skitty doesn't seem to notice you. It's too focused on the catnip in the boys pocket."))
     releaseall
 }
 
