@@ -5,7 +5,12 @@ mapscripts TwigtreeGrove_MapScripts {}
 script TwigtreeGrove_EventScript_MeetRival {
     lockall
     faceplayer
-    msgbox(format("TEXT"))
+    msgbox(format("{COLOR RED}{SHADOW LIGHT_RED}RIVAL:{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} Huh? You're actually alive? Saves me the effort of going to get the shovel I guess."))
+    msgbox(format("Damn, you look like shit. You've got that 'confused and useless' look down perfectly. You're lucky the Wingull didn't start picking at you, they love to eat the trash off the beach."))
+    msgbox(format("What's your name?"))
+    msgbox(format("{PLAYER}, huh? Man, your parents must of hated you."))
+    msgbox(format("Come on, my place isn't far. You smell like you've never had a wash in your life so do everyone a favour and have a shower."))
+    msgbox(format("Don't make me regret helping you, okay? I don't tend to make a habit of helping the homeless."))
     waitmessage
     fadescreen(FADE_TO_BLACK)
     warp(MAP_TWIGTREE_GROVE_HOUSE1_1F, 5, 6)
@@ -25,6 +30,6 @@ script TwigtreeGrove_EventScript_Skitty {
 # Signs --------------------------------------------------------------------------------------
 script TwigtreeGrove_EventScript_SignTown {
     lockall
-    msgbox("TWIGTREE GROVE", MSGBOX_SIGN)
+    msgbox(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}TWIGTREE GROVE"), MSGBOX_SIGN)
     releaseall
 } 
