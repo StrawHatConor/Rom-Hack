@@ -1,31 +1,5 @@
 mapscripts TwigtreeGrove_MapScripts {}
 
-# NPC ---------------------------------------------------------------------------------------
-// Rival first interaction
-script TwigtreeGrove_EventScript_MeetRival {
-    lockall
-    faceplayer
-    msgbox(format("{COLOR RED}{SHADOW LIGHT_RED}RIVAL:{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} Huh? You're actually alive? Saves me the effort of going to get the shovel I guess."))
-    msgbox(format("Damn, you look like shit. You've got that 'confused and useless' look down perfectly. You're lucky the Wingull didn't start picking at you, they love to eat the trash off the beach."))
-    msgbox(format("What's your name?"))
-    msgbox(format("{PLAYER}, huh? Man, your parents must of hated you."))
-    msgbox(format("Come on, my place isn't far. You smell like you've never had a wash in your life so do everyone a favour and have a shower."))
-    msgbox(format("Don't make me regret helping you, okay? I don't tend to make a habit of helping the homeless."))
-    waitmessage
-    fadescreen(FADE_TO_BLACK)
-    warp(MAP_TWIGTREE_GROVE_HOUSE1_1F, 5, 6)
-    fadescreen(FADE_FROM_BLACK)
-    setflag(FLAG_EVENT_MEET_RIVAL)
-    releaseall  
-}
-
-// Skitty interaction
-script TwigtreeGrove_EventScript_Skitty {
-    lockall
-    msgbox(format("{COLOR BLUE}{SHADOW LIGHT_BLUE}The Skitty doesn't seem to notice you. It's too focused on the catnip in the boys pocket."))
-    releaseall
-}
-
 # Signs --------------------------------------------------------------------------------------
 script TwigtreeGrove_EventScript_SignTown {
     lockall
