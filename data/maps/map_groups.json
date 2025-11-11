@@ -629,7 +629,9 @@
     "TwigtreeGrove"
   ],
   "gMapGroup_Routes": [],
-  "gMapGroup_Dungeons_": [],
+  "gMapGroup_Dungeons_": [
+    "TwigtreeWoods"
+  ],
   "gMapGroup_IndoorTwigtreeGrove": [
     "TwigtreeGrove_House1_1F",
     "TwigtreeGrove_House1_2F",

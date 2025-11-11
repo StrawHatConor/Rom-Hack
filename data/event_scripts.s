@@ -1172,3 +1172,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/TwigtreeGrove_House3_2F/scripts.inc"
 
 	.include "data/maps/TwigtreeGrove_House2_1F/scripts.inc"
+
+	.include "data/maps/TwigtreeWoods/scripts.inc"

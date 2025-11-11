@@ -4480,6 +4480,16 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/TwigtreeGrove_House2_1F/border.bin",
       "blockdata_filepath": "data/layouts/TwigtreeGrove_House2_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWIGTREE_WOODS",
+      "name": "TwigtreeWoods_Layout",
+      "width": 34,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/TwigtreeWoods/border.bin",
+      "blockdata_filepath": "data/layouts/TwigtreeWoods/map.bin"
     }
   ]
 }

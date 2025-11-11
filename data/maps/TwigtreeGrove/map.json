@@ -35,6 +35,20 @@
       "elevation": 0,
       "dest_map": "MAP_TWIGTREE_GROVE_HOUSE3_1F",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_TWIGTREE_WOODS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_TWIGTREE_WOODS",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [],

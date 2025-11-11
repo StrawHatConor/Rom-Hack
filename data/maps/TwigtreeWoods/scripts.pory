@@ -1,0 +1,8 @@
+mapscripts TwigtreeWoods_MapScripts {}
+
+// Signs -------------------------------------------------------
+script TwigtreeWoods_EventScript_SignWoods {
+    lockall
+    msgbox(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}TWIGTREE WOODS"), MSGBOX_SIGN)
+    releaseall
+}
