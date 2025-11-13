@@ -1,8 +1,33 @@
 mapscripts TwigtreeWoods_MapScripts {}
 
+// Triggers ---------------------------------------------------
+script TwigtreeWoods_EventScript_RivalIntroduction {
+    lockall
+    applymovement(LOCALID_RIVAL, RivalIntroduction)
+    msgbox(format("{COLOR RED}{SHADOW LIGHT_RED}RIVAL:{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ???"))
+    waitmessage
+    callnative(ChooseStarter)
+    waitstate
+    msgbox(format("{COLOR RED}{SHADOW LIGHT_RED}RIVAL:{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ???"))
+    waitmessage
+    applymovement(LOCALID_RIVAL, RivalIntroduction_End )
+    setflag(FLAG_EVENT_RIVAL_INTRO)
+    releaseall
+}
+
 // Signs -------------------------------------------------------
 script TwigtreeWoods_EventScript_SignWoods {
     lockall
     msgbox(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}TWIGTREE WOODS"), MSGBOX_SIGN)
     releaseall
+}
+
+// Movement ---------------------------------------------------
+movement RivalIntroduction {
+    walk_left * 7
+    face_left
+}
+
+movement RivalIntroduction_End {
+    walk_right * 7
 }
